@@ -1,0 +1,42 @@
+.color-colapse-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-colapse-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.color-colapse-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color-colapse-tile {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-colapse-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.color-colapse-solvable {
+    color: green;
+    font-size: 40px;
+}
+
+.color-colapse-unsolvable {
+    color: red;
+    font-size: 40px;
+}
