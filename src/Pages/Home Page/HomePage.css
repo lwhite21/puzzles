@@ -1,0 +1,25 @@
+.home-game-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.home-page-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.home-game-card-img {
+    height: 150px;
+    width: 150px;
+}
+
+.home-game-card-name {
+    font-size: 28px;
+    font-weight: 600;
+}
